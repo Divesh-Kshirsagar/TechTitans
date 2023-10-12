@@ -1,0 +1,84 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 17%;
+}
+
+.nav-ul {
+    display: grid;
+    grid-template-columns: 6fr repeat(3, 2fr) repeat(2, 1fr);
+}
+
+.nav-li {
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-top: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.logo-1 {
+    font-size: 60px;
+    color: rgb(33, 186, 33);
+}
+
+.logo-2 {
+    font-size: 30px;
+    color: rgb(0, 119, 255);
+}
+
+span ~ p {
+    margin: 0px;
+    color: rgb(45, 61, 45);
+    margin-left: 10px;
+}
+
+.nav-li > a {
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 20px;
+}
+
+.nav-li > a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.nav-li > button {
+    height: 50px;
+    width: 100px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(33, 186, 33);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nav-li-b {
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+.nav-li > button:hover {
+    background-color: rgb(23, 127, 23);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+main {
+    padding: 150px 10px;
+
+}
